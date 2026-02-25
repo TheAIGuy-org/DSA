@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,i;
+    cout<<"Enter the number of levels you want: ";
+    cin>>n;
+    i=1;
+    char c=65;
+    while(i<=n){
+        int j=1;       
+        while(j<=n){
+            cout<<c<<' ';
+            j+=1;
+        }
+        cout<<endl;
+        c+=1;
+        i+=1;
+    }
+}
